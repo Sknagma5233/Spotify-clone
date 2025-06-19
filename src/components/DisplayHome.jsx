@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import { albumsData } from '../assets/assets';
 import AlbumItem from './AlbumItem';
 import { songsData } from '../assets/assets';
-import SongItem from './songItem';
+import SongItem from './SongItem';
 
 const DisplayHome = ({ searchQuery ='' }) => {
   const albumScrollRef = useRef(null); 
